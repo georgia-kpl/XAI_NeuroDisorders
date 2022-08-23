@@ -19,8 +19,6 @@ The datasets used in this project are the following:
 ## Repository Structure
 
 ```
-├── trained_CNN_model
-│   ├── CNN_Alzheimer's.h5 
 ├── Interim Report Final.pdf
 ├── Parkinson_Classification_and_XAI.ipynb (Used in Final Study | Parkinson's Data Processing, Classifiers, LIME and EBM Explanations)
 ├── README.md
@@ -31,6 +29,5 @@ The datasets used in this project are the following:
 ```
 
 All notebooks can be executed on Google Colab, or Kaggle to test visualisation on custom inputs from the datasets linked above. 
-The CNN trained model is provided in an h5 format that can be loaded into the notebook 
-and test grad-cam visualisations for individual image inputs.
+
 
