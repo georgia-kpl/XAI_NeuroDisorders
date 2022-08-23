@@ -18,6 +18,7 @@ The datasets used in this project are the following:
 
 ## Repository Structure
 
+```
 ├── trained_CNN_model
 │   ├── CNN_Alzheimer's.h5 
 ├── Interim Report Final.pdf
@@ -27,6 +28,7 @@ The datasets used in this project are the following:
 ├── alzheimerVGG19_and_XAI.ipynb (VGG19 Model for Image Classification for Alzheimer's, including GRAD-CAM function)
 ├── alzheimercnn-and-xai.ipynb (Used in Final Study | CNN model for Alzheimer's Classification, including GRAD-CAM function)
 └── strokeModels_and_XAI.ipynb (Used in Final Study | Stroke Data Analysis, Classifiers and SHAP, LIME, ELI5 Explanations)
+```
 
 All notebooks can be executed on Google Colab, or Kaggle to test visualisation on custom inputs from the datasets linked above. 
 The CNN trained model is provided in an h5 format that can be loaded into the notebook 
