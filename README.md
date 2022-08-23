@@ -16,3 +16,19 @@ The datasets used in this project are the following:
 - Parkinson's Recognition Using Voice Frequencies: [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Parkinson%27s+Disease+Classification#)
 - Epileptic Seizure Classification: [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Epileptic+Seizure+Recognition)
 
+## Repository Structure
+
+├── trained_CNN_model
+│   ├── CNN_Alzheimer's.h5 
+├── Interim Report Final.pdf
+├── Parkinson_Classification_and_XAI.ipynb (Used in Final Study | Parkinson's Data Processing, Classifiers, LIME and EBM Explanations)
+├── README.md
+├── SeizuresPrediction_EBM.ipynb (Used in Final Study | Notebook for Epilepsy Prediction using EBM and InterpretML visualisations)
+├── alzheimerVGG19_and_XAI.ipynb (VGG19 Model for Image Classification for Alzheimer's, including GRAD-CAM function)
+├── alzheimercnn-and-xai.ipynb (Used in Final Study | CNN model for Alzheimer's Classification, including GRAD-CAM function)
+└── strokeModels_and_XAI.ipynb (Used in Final Study | Stroke Data Analysis, Classifiers and SHAP, LIME, ELI5 Explanations)
+
+All notebooks can be executed on Google Colab, or Kaggle to test visualisation on custom inputs from the datasets linked above. 
+The CNN trained model is provided in an h5 format that can be loaded into the notebook 
+and test grad-cam visualisations for individual image inputs.
+
